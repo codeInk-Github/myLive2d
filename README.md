@@ -3,6 +3,10 @@
 
 >Fast , practical
 
+## CDN使用方法
+eg.
+  https://cdn.jsdelivr.net/gh/codeInk-Github/myLive2d@0.01/live2d/css/waifu.css
+
 [![作者](https://img.shields.io/badge/作者-Colorfulshadowty-blue.svg)](https://github.com/colorfulshadowty)
 [![许可证](https://img.shields.io/badge/许可证-GPLv3-orange.svg)](LICENSE)
 ![版本](https://img.shields.io/badge/版本-1.0.0-green.svg)
