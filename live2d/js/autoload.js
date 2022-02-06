@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径
 const live2d_path = "https://cdn.jsdelivr.net/gh/codeInk-Github/myLive2d@0.01/";
-const tips_path = "https://cdn.jsdelivr.net/gh/taylorlottner/xiaobudian@latest/";
+const tips_path = "https://cdn.jsdelivr.net/gh/codeInk-Github/myLive2d@0.01/";
 // const live2d_path = "";
 //const live2d_path = "/live2d-widget/";
 
@@ -28,9 +28,9 @@ function loadExternalResource(url, type) {
 
 // 加载 waifu.css live2d.min.js waifu-tips.js
 Promise.all([
-	loadExternalResource(live2d_path + "waifu.css", "css"),
-	loadExternalResource(live2d_path + "live2d.min.js", "js"),
-	loadExternalResource(live2d_path + "waifu-tips.js", "js")
+	loadExternalResource(live2d_path + "css/waifu.css", "css"),
+	loadExternalResource(live2d_path + "js/live2d.min.js", "js"),
+	loadExternalResource(live2d_path + "js/waifu-tips.js", "js")
 ]).then(() => {
 	initWidget({
 		waifuPath: tips_path + "waifu-tips.json",
